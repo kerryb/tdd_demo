@@ -1,6 +1,7 @@
 $:.unshift(File.dirname(__FILE__) + '/../lib')
 require 'account_controller'
 require 'account'
+require 'spec'
 
 describe AccountController do
   describe 'transferring money' do

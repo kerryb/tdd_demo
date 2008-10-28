@@ -1,5 +1,6 @@
 $:.unshift(File.dirname(__FILE__) + '/../lib')
 require 'account'
+require 'spec'
 
 describe Account do
   describe 'debiting' do
