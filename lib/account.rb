@@ -7,5 +7,8 @@ class Account
   
   def debit amount
     @balance -= amount
+  end  
+  def credit amount
+    @balance += amount
   end
 end
